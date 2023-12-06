@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register New Students</title>
+    <link rel="stylesheet" href="/register.css">
+  </head>
+  <body>
+    <div class="bold">
+      <nav>
+        <a href="/home.html">
+          <p>Home</p>
+        </a>
+        <a href="/about.html">
+          <p>About</p>
+        </a>
+        <a href="/contact.html">
+          <p>Contact</p>
+        </a>
+        <a href="/International.html">
+          <p>International Students</p>
+        </a>
+        <a href="/campus.html">
+          <p>Campus Life</p>
+        </a>
+        <a href="/register.html">
+          <p>Register</p>
+        </a>
+        <button id="out">LOG OUT</a></button>
+      </nav>
+      <div class="main">
+      <div class="try left"></div>
+      <div class="try center">
+        <input type="text" placeholder="Enter your name" />
+
+        <input type="Email" placeholder="Enter your email" />
+
+        <input type="tel" placeholder="Phone number" />
+        <br />
+        <select class="select1">
+          <option>Visa Status</option>
+          <option>None</option>
+          <option>In the process</option>
+          <option>I Have a visa</option>
+          <option>What is a Visa</option>
+        </select>
+        <select class="select">
+          <option>Course Selection</option>
+          <option>Data Science</option>
+          <option>Software Development</option>
+          <option>Machine Learning</option>
+          <option>Block Chain</option>
+          <option>Robotics</option>
+        </select>
+        <br />
+        <select class="select">
+          <option>...Your Nationality...</option>
+          <option>United States</option>
+          <option>Dominican Republic</option>
+          <option>TURKEY</option>
+          <option>JAPAN</option>
+          <option>CHINA</option>
+        </select>
+        <br />
+        <input type="date" />
+        <button class="click"><a href="/home.html">Enroll</a></button>
+      </div>
+      <div class="try right">
+        <div class="title">
+          <p>See you in class!</p>
+        </div>
+        <div class="body">
+          <p>
+            Whatever your focus, your vision, or your passion, this is the place
+            to realize your potential. Find your purpose!
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+  <script src="/js/config.js"></script>
+  <script src="/js/home.js"></script>
+</html>

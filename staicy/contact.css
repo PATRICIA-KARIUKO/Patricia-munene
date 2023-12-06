@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  height: 100vh;
+  width: 100vw;
+  background-color: crimson;
+}
+nav {
+  height: 8%;
+  width: 100%;
+ background-color: rgb(87, 55, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav button {
+  background-color: tomato;
+  height: 24px;
+  width: 70px;
+  border: outset;
+  border-radius: 10px;
+}
+.about {
+  height: 92%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.major {
+  height: 92%;
+  display: flex;
+}
+.min {
+  height: 100%;
+}
+.left {
+  background-image: url(../images/contact\ page.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.right {
+  background-color: #ff8418;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.uno {
+  height: 50%;
+  width: 100%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.map {
+  background: #383838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map h3 {
+  color: #f7f7f7;
+}
+.map a {
+  color: #bab6b6;
+  text-decoration: none;
+}
+.map a:hover {
+  color: #fd4949;
+}
+.raise {
+  /* background: #ffffff; */
+  margin-top: -30px;
+  height: 80px;
+  width: 80px;
+  background-image: url(../images/location.avif);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.talk {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+.talk a {
+  text-decoration: none;
+  color: #bab6b6;
+}
+.talk a:hover {
+  color: #fd4949;
+}
+
+.map,
+.talk {
+  height: 270px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.raize {
+  margin-top: -30px;
+  height: 80px;
+  width: 80px;
+  background-image: url(../images/message.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.dos {
+  height: 50%;
+  width: 100%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #f7f7f7;
+}
+.raze {
+  margin-top: -30px;
+  height: 80px;
+  width: 80px;
+  background-image: url(../images/email.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.email a {
+  text-decoration: none;
+  color: #bab6b6;
+}
+.email a:hover {
+  color: #fd4949;
+}
+.drop {
+  background: #383838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f7f7f7;
+}
+.raz {
+  height: 80px;
+  width: 80px;
+  margin-top: -30px;
+  background-color: #f7f7f7;
+  background-image: url(../images/school.png);
+  background-position: center;
+  background-size: cover;
+}
+.email,
+.drop {
+  height: 270px;
+  width: 330px;
+}

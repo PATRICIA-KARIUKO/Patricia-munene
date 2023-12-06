@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #b1b1b1;
+}
+nav {
+  background-color: rgb(87, 55, 0);
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+nav button {
+  height: 25px;
+  border-radius: 5px;
+  border: outset;
+  border-bottom: groove;
+  background-color: tomato;
+}
+.container {
+  height: 92%;
+  width: 100%;
+  background: #000;
+}
+
+.top {
+  height: 290px;
+  background-image: url(/images/Cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom {
+  background-image: url(/images/grey.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  width: 1353px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  background-image: url(/images/`);
+  background-position: center;
+  background-size: cover;
+
+  height: 265px;
+  width: 38%;
+  text-align: center;
+  border: outset 4px;
+  border-radius: 10px;
+}
+.left hr {
+  margin-left: 19%;
+  width: 300px;
+  border: outset 4px;
+}
+.left p {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.left p:hover {
+  color: rgb(76, 226, 211);
+  border: outset;
+  background-color: #979797;
+}
+.right {
+  /* background-color: rgb(255, 203, 203); */
+  height: 265px;
+  width: 58%;
+  border-radius: 10px;
+}
+.konde {
+  height: 88%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  border: outset 4px;
+}
+.sport,
+.sport1,
+.sport2,
+.sport3 {
+  /* background: #000; */
+  height: 200px;
+  width: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 40%;
+}
+.sport {
+  background-image: url(/images/rugby.webp);
+}
+.sport1 {
+  background-image: url(/images/grad.webp);
+}
+.sport2 {
+  background-image: url(/images/dormitory.jpg);
+}
+.sport3 {
+  background-image: url(/images/laptop.webp);
+}

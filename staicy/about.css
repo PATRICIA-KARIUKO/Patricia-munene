@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* background-color: crimson; */
+}
+nav {
+  height: 8%;
+  width: 100%;
+  background-color: rgb(87, 55, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav button {
+  background-color: tomato;
+  border: outset;
+  height: 24px;
+  width: 70px;
+  border-radius: 10px;
+}
+.about {
+  height: 92%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 40%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  width: 60%;
+  padding: 0 30px;
+}
+
+.right h4 {
+  font-size: 28px;
+  color: rgb(219, 92, 69);
+}
+.right h2 {
+  font-size: 36px;
+}
+.right p {
+  margin-right: 60px;
+}
+.right button {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+}
+
+.course {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+.course .h3{
+  color: tomato; 
+text-align: center;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+.top {
+  height: 50%;
+  /* background-color: rgb(126, 4, 4); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below {
+  height: 50%;
+  width: 100%;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one,
+.two,
+.three {
+  height: 220px;
+  width: 300px;
+  margin-left: 50px;
+  background-color: wheat;
+  border-radius: 6%;
+}
+
+.top .one {
+  background-image: url(../images/software.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.top .two {
+  background-image: url(../images/bchain.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.top .three {
+  background-image: url(../images/machine\ learning.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.below .one {
+  background-image: url(../images/robotics.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.below .two {
+  background-image: url(../images/data\ science.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.below .three {
+  background-image: url(../images/startup\ school.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  height: 60px;
+  width: 300px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12%;
+  background-color: hsla(36, 96%, 29%, 0.9);
+}
+
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+.title a:hover {
+  color: rgb(235, 235, 235);
+}

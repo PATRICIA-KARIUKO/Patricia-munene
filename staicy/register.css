@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: crimson; */
+}
+nav {
+  height: 8%;
+  width: 100%;
+  background-color: rgb(87, 55, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav button {
+  background-color: tomato;
+  border: outset;
+
+  height: 24px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.main {
+  background-image: url(/images/lab.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 92vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.try {
+  height: 380px;
+  width: 300px;
+  background-color: #fcfcfc;
+  border: 1px solid lightgrey;
+}
+.left {
+  background-image: url(../images/apply1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.center input {
+  margin-bottom: 10px;
+  height: 25px;
+  border-radius: 6px;
+  width: 200px;
+}
+.center select {
+  height: 25px;
+  width: 200px;
+  margin-top: -10px;
+  border-radius: 6px;
+}
+.center button {
+  height: 28px;
+  width: 100px;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+}
+.center button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+input {
+  border: none;
+  border-bottom: 1px grey solid;
+}
+.select1 {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px grey solid;
+}
+.select {
+  border: none;
+  border-bottom: 1px grey solid;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 550;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  height: 100vh;
+  width: 100vw;
+  background: #b1b1b1;
+  overflow: hidden;
+}
+nav {
+  background-color: rgb(87, 55, 0);
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+nav button {
+  height: 25px;
+  border-radius: 5px;
+  border: outset;
+  border-bottom: groove;
+  background-color: tomato;
+}
+
+.container {
+  height: 92%;
+  width: 100%;
+}
+
+.top {
+  height: 290px;
+  background-image: url(/images/Student-Visa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom {
+  background-image: url(/images/tree.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  width: 1353px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  background-image: url(/images/grey.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  width: 68%;
+  text-align: center;
+  border: outset 4px;
+  border-radius: 10px;
+}
+.left hr {
+  margin-left: 28%;
+  width: 400px;
+  border: outset 4px;
+}
+.left p {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.right {
+  /* background-color: rgb(255, 203, 203); */
+  height: 265px;
+  width: 32%;
+  border-radius: 10px;
+}
+.konde {
+  margin-top: 15px;
+  height: 85%;
+  border: outset 4px;
+}
+.konde h2{
+  text-align: center;
+  color: #747474;
+}
+.konde ol{
+  text-align: justify;
+  margin: 0 35px;
+  color: #747474;
+}
+.konde li:hover{
+  border: outset;
+  color: black;
+  font-weight: 550;
+}
